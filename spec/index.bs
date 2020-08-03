@@ -1969,7 +1969,9 @@ enum GPUTextureFormat {
 enum GPUTextureComponentType {
     "float",
     "sint",
-    "uint"
+    "uint",
+    // Texture is used with comparison sampling only.
+    "depth
 };
 </script>
 
