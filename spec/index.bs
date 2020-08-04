@@ -1971,7 +1971,7 @@ enum GPUTextureComponentType {
     "sint",
     "uint",
     // Texture is used with comparison sampling only.
-    "depth"
+    "depth-comparison"
 };
 </script>
 
